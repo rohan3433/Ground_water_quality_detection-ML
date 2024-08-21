@@ -48,15 +48,15 @@ First, clone this repository to your local machine:
 git clone https://github.com/yourusername/groundwater-quality-classification.git
 cd groundwater-quality-classification
 
-Prepare the Data
+### 2.Prepare the Data
 
 Ensure the necessary CSV files (ground_water_quality_2018_post.csv, ground_water_quality_2019_post.csv, ground_water_quality_2020_post.csv) are available in the working directory.
 
-Run the Analysis
+### 3.Run the Analysis
 
 You can run the analysis by executing the Jupyter notebook or Python script provided in the repository. The code includes all steps from data preprocessing to model evaluation.
 
-Explore the Results
+### 4.Explore the Results
 
 The results will include various performance metrics like accuracy, precision, recall, F1-score, and confusion matrices, which are visualized using heatmaps.
 
@@ -67,7 +67,7 @@ Visualizing relationships between features and target labels.
 Checking the distribution of features using histograms and KDE plots.
 Identifying and handling outliers.
 Model Training and Evaluation
-##The project uses SVM models with different kernels:
+### 5.The project uses SVM models with different kernels:
 
 Linear Kernel
 Polynomial Kernel
@@ -75,7 +75,7 @@ RBF (Radial Basis Function) Kernel
 Sigmoid Kernel
 Steps Involved:
 
-##Data Preprocessing:
+### 6.Data Preprocessing:
 
 Handle missing values by filling with the mean.
 Log transformation for select features to reduce skewness.
@@ -97,5 +97,5 @@ Detailed classification reports showing precision, recall, and F1-score for each
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgments
+### Acknowledgments
 This project utilizes groundwater quality data obtained from public datasets. Special thanks to the data providers for making this project possible.
