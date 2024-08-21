@@ -36,14 +36,5 @@ To run the code in this repository, you'll need to have Python installed along w
 
 You can install the required libraries using the following command:
 
-  ```bash
- pip install pandas numpy matplotlib seaborn scikit-learn
-
-## Usage
-
-### 1. Clone the Repository
-First, clone this repository to your local machine:
-
 ```bash
-git clone https://github.com/yourusername/groundwater-quality-classification.git
-cd groundwater-quality-classification
+ pip install pandas numpy matplotlib seaborn scikit-learn
